@@ -11,7 +11,7 @@
 }
 
 .dark {
-  --mainColor: #031f30;
+  --mainColor: #021825;
   --hoverColor: #05314d;
   --backgroundColor: #192e3a;
   --darkOne: #f3f3f3;
@@ -107,7 +107,7 @@ header .container {
 }
 
 .links a {
-  color: var(--lightTwo);
+  color: black;
   margin-left: 4.5rem;
   display: inline-block;
   transition: 0.3s;
@@ -200,7 +200,10 @@ header .container {
 }
 
 .text {
-  color: var(--lightOne);
+  color: rgb(85, 85, 85);
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   font-size: 1.1rem;
   margin: 1.9rem 0 2.5rem;
   max-width: 600px;
